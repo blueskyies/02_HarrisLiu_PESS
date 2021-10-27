@@ -18,7 +18,7 @@
 		}
 	</script>
 	<?php require 'nav.php';?> <!-- menu bar code-->
-	<?php require 'db.php'; //database details
+	<?php require 'db_config.php'; //database details
 	//create database connection
 	$mysqli = mysqli_connect(DB_SERVER, DB_USER, DB_PASSWORD, DB_DATABASE);
 	//Check connection
